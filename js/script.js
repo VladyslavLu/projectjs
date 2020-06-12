@@ -75,4 +75,3 @@
 
 // console.log(isChecked || !isClose);
 
-console.log();
