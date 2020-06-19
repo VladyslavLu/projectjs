@@ -106,8 +106,124 @@
 
 
 
-    
 
+// Функции
+
+
+// let num = 20;
+
+// function showFirstMessage(text) {
+//     console.log(text);
+//     console.log(num);
+// }
+    
+// showFirstMessage("Hello World!");
+// console.log(num);
+
+
+
+// console.log(calc(4, 3));
+// console.log(calc(5, 6));
+// console.log(calc(10, 6));
+
+// function calc(a, b) {
+//     return (a + b);
+// }
+
+
+// function ret() {
+//     let num = 50;
+//     return num;
+// }
+
+// const anotherNum = ret();
+// console.log(anotherNum);
+
+
+// const logger =function() {
+//     console.log("Hello!");
+// };
+
+// logger();
+
+
+// const calc = (a, b) => {
+//     console.log('1');
+//     return a + b;
+// };
+
+
+// Методы и свойства строк и чисел
+
+// const str = "teSt";
+// const arr = [1, 2, 4];
+
+// console.log(str.toUpperCase()); меняет на заглавные
+// console.log(str.toLowerCase()); меняет на строчные
+// console.log(str);
+
+// const fruit = "Some fruit"; 
+
+// console.log(fruit.indexOf("q")); ищет внутри строки 
+
+// const logg = "Hello world";
+
+// console.log(logg.slice(6, 11)); после какого начать, каким закончить включительно
+
+// console.log(logg.substring(6, 11)); аналогично предыдущему
+
+// console.log(logg.substr(6, 5)); С какого знака, количество символов
+
+// const num = 12.2;
+// console.log(Math.round(num)); округление
+
+// const test = "12.2px";
+// // console.log(parseInt(test));
+// console.log(parseFloat(test)); возвращает число с точкой 
+
+
+// let age = 11;
+// let accompanied = true;
+
+// if (age >= 12 || (age <= 12 && accompanied )) {
+//     console.log(true);
+// }
+
+
+// Добавление элементов в массив
+
+// let animals = [];
+// animals.push('Кот');
+// animals.push('Пёс');
+// animals.push('Лама'); 
+
+
+// Добавление элементов в начало массива
+
+// animals.unshift('элемент');
+
+
+// Убрать из массива последний элемент
+
+// animals.pop
+
+
+// Убрать элемент из начала массива 
+
+// animals.shift
+
+
+
+// Методы unshift и shift удаляют и добавляют элементы из начала массива, а push и pop с конца
+
+
+// Объединение массивов
+
+// firstArray.contact(otherArray)
+
+
+
+    
 
 
 
