@@ -79,7 +79,7 @@
 //     console.log('Ok!');
 // } else {
 //     console.log('Error');
-}
+// }
 
 // const num = 50;
 //  if (num < 49 ) {
@@ -108,7 +108,7 @@
 //         break;
 // }
  
-let num = 50;
+// let num = 50;
 
 // while (num <= 55) {
 //     console.log(num);
@@ -129,4 +129,73 @@ let num = 50;
 
 //     console.log(i);
 // }
+
+
+
+
+// Objects: Arrays
+
+// const options = {
+//     name: 'test',
+//     width: 1024,
+//     height: 1024,
+//     colors: {
+//         border: 'black',
+//         bg: 'red'
+//     },
+//     makeTest: function() {
+//         console.log('Test');
+//     }
+// };
+
+// options.makeTest();
+
+// const {border, bg} = options.colors;
+// console.log(border);
+
+// console.log(Object.keys(options).length);
+
+// console.log(options.name);
+
+// delete options.name;
+
+
+
+// Массивы и псевдомассивы:
+
+// Сортировка по порядку
+
+// const arr = [2, 13, 26, 8, 10];
+// arr.sort(compareNum);
+// console.log(arr);
+
+// function compareNum(a,b) {
+//     return a - b;
+// }
+
+// arr[99] = 0;
+// console.log(arr.length);
+// console.log(arr);
+
+// arr.forEach(function(item, i, arr) {
+//     console.log(`${i}: ${item} внутри массива ${arr}`);
+// });
+
+// arr.pop();
+// arr.push(10);
+
+// console.log(arr);
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+// for( let value of arr) {
+//     console.log(value);
+// }
+
+// const str = prompt('', '');
+// const products = str.split(', ');
+// products.sort();
+// console.log(products.join('; '));
 
